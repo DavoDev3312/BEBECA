@@ -41,6 +41,11 @@ header nav ul li:hover{
     transition: 1s;
 }
 
+.carousel_carousel-dark_slide_MiClase{
+    width: 50%;
+    margin: 0% auto;
+}
+
 .Promoción .Promo h1{
     background-color: rgb(228, 109, 66);
     font-size: 30px;
@@ -649,6 +654,101 @@ header nav ul li:hover{
     grid-row: 16/17;
     font-size: 25px;
 }
+
+/*////////////////////////////////////////// ACERCA DE NOSOTROS //////////////////////////////////////////////////////////*/
+
+.TituloA{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(148, 167, 233);
+      font-size: 30px;
+}
+
+.PA , .PA1 , .PA2 , .PA3 , .PA4{
+   margin-top: 30px;
+   font-size: 20px;
+   display: flex;
+   justify-content: flex-start;
+   margin-right: 50%;
+   margin-left: 10%;
+}
+
+.PA4{
+    margin-bottom: 50px;
+    font-size: 23px;
+}
+
+.PA3 h3{
+    color: rgb(148, 167, 233);
+    font-size: 30px;
+}
+
+.PA{
+    color: rgb(148, 167, 233);
+    font-size: 30px;
+}
+
+.PA1{
+    font-size: 23px;
+}
+
+.PA2{
+    font-size: 23px;
+}
+
+/*////////////////////////////////////////// CONTACTO //////////////////////////////////////////////////////////*/
+
+.formulario{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.formulario h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.controles{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: white;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+.boton-f{   
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 15px 0;
+    font-size: 15px;
+    background-color: #1f53c5;
+}
+
+.formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.formulario a{
+    color: white;
+    text-decoration: underline;
+}
+
 
 
 
