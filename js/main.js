@@ -14,6 +14,11 @@ if(pesos > 10000){
     alert("El total de tu compra junto con el descuento es de: " + total)
 } 
 
+while (pesos < 10000) {
+    alert("Recuerda que si tu total es mayor a 10 mil tenemos el 20% de decuento");
+    break;
+}
+
 let experiencia = prompt("Le gustó la experiencia comprando con BEBECA")
 switch (experiencia) {
     case "Si":
@@ -29,6 +34,7 @@ switch (experiencia) {
     default:
         break;
 }
+
 
 
 
