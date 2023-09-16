@@ -1,18 +1,17 @@
 //Esto es un comentario > < 
 
-
 function encuesta () {
    let respuesta = prompt("¿Qué te parece nuestro servicio hasta el momento? (responder con bien o mal)");
-   if (respuesta = "Bien"|| "bien") {
+   if (respuesta == "Bien" || "bien") {
         alert("Nos da gusto que tu experiencia sea de calidad.");
-   }else if(respuesta = "Mal" || "mal") {
+   }else {
     alert("Ups, parece que debemos mejorar nuestro servicio de pago, agradecemos tu sinceridad")
    }
 }
 
 function servicioPago() {
     let servicio = prompt("¿Qué te parece nuestro servicio de pago? (responder con bien o mal)");
-    if (servicio = "Bien" || "bien") {
+    if (servicio == "Bien" || "bien") {
         alert("Nos da gusto que tu experiencia sea de calidad, lo esperamos pronto.");
    } else {
     alert("Ups, parece que debemos mejorar nuestro servicio, agradecemos tu sinceridad")
@@ -61,3 +60,33 @@ switch (experiencia) {
 }
 
 servicioPago();
+
+alert("Te mostraremos algunas sugerencias de productos que te pueden interesar.");
+
+const productos = [
+    {
+        producto: "Carriola1",
+        precio: "$4000",
+        color: "blanca"
+    },
+    {
+        producto: "Carriola2",
+        precio: "$5,500",
+        color: "negra"
+    },
+    {
+        producto: "Carriola3",
+        precio: "$4,500",
+        color: "gris"
+    },
+];
+
+for (let i = 0; i < productos.length; i++) {
+    alert("Nombre: " + productos[i].producto);
+    alert("Precio: " + productos[i].precio);
+    alert("Color: " + productos[i].color);
+    
+}
+
+alert("BEBETO, seguridad para ti y tu bebé.");
+alert("¡Vuelva pronto!");
