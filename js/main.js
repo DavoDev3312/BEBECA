@@ -1,5 +1,34 @@
 //Esto es un comentario > < 
 
+
+function encuesta () {
+   let respuesta = prompt("¿Qué te parece nuestro servicio hasta el momento? (responder con bien o mal)");
+   if (respuesta = "Bien"|| "bien") {
+        alert("Nos da gusto que tu experiencia sea de calidad.");
+   }else if(respuesta = "Mal" || "mal") {
+    alert("Ups, parece que debemos mejorar nuestro servicio de pago, agradecemos tu sinceridad")
+   }
+}
+
+function servicioPago() {
+    let servicio = prompt("¿Qué te parece nuestro servicio de pago? (responder con bien o mal)");
+    if (servicio = "Bien" || "bien") {
+        alert("Nos da gusto que tu experiencia sea de calidad, lo esperamos pronto.");
+   } else {
+    alert("Ups, parece que debemos mejorar nuestro servicio, agradecemos tu sinceridad")
+   }
+}
+
+function totalCompra() {
+    if(pesos > 10000){
+        descuento = pesos * .20;
+        total = pesos - descuento;
+        alert("El total de tu compra junto con el descuento es de: " + total)
+    } 
+}
+
+encuesta();
+
 alert("NOTA: En la compra normal, por promoción, tenemos el 5% de descuento, si tu pago es mayor a 10 mil pesos, se te hará un descuento del 20% en tu compra total.");
 
 let pesos = prompt("Ingresa la cantidad total de tu compra: ");
@@ -8,11 +37,7 @@ let pesos = prompt("Ingresa la cantidad total de tu compra: ");
 
 alert("El total de tu compra es de " + total);
 
-if(pesos > 10000){
-    descuento = pesos * .20;
-    total = pesos - descuento;
-    alert("El total de tu compra junto con el descuento es de: " + total)
-} 
+totalCompra();
 
 while (pesos < 10000) {
     alert("Recuerda que si tu total es mayor a 10 mil tenemos el 20% de decuento");
@@ -35,7 +60,4 @@ switch (experiencia) {
         break;
 }
 
-
-
-
-
+servicioPago();
